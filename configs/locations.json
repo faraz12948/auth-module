@@ -1,0 +1,6644 @@
+{
+  "11": {
+    "name": "National Board of Revenue",
+    "level": "#6f0051",
+    "icon": "icons/nbr/Custom-House/LC-Station.png",
+    "id": "11",
+    "parentId": null,
+    "summary": {
+      "title": "National Board of Revenue",
+      "description": "🤖 Powerful rack asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+      "type": "details",
+      "list": [
+        {
+          "label": "NBR Building",
+          "rackCount": 0
+        },
+        {
+          "label": "Custom House",
+          "rackCount": 0
+        },
+        {
+          "label": "Land Custom Station",
+          "rackCount": 0
+        },
+        {
+          "label": "Custom Bond Commisionarate",
+          "rackCount": 0
+        }
+      ]
+    },
+    "children": [
+      {
+        "name": "NBR Building",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "graph",
+        "id": "101"
+      },
+      {
+        "name": "Custom House",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "graph",
+        "id": "102"
+      },
+      {
+        "name": "Land Customs Station",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "graph",
+        "id": "103"
+      },
+      {
+        "name": "Custom Bond Commissionerate",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "graph",
+        "id": "104"
+      }
+    ]
+  },
+  "102": {
+    "name": "Custom House",
+    "level": "#6f0051",
+    "icon": "icons/nbr/Custom-House/LC-Station.png",
+    "id": "102",
+    "parentId": "11",
+    "summary": {
+      "title": "National Board of Revenue",
+      "description": "🤖 Powerful rack asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+      "type": "details",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Custom House Dhaka",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "graph",
+        "id": "1001"
+      },
+      {
+        "name": "Custom House Chittagong",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "graph",
+        "id": "1002"
+      },
+      {
+        "name": "Custom House Benapole",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "graph",
+        "id": "1003"
+      },
+      {
+        "name": "Custom House Pangaon",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "graph",
+        "id": "1004"
+      },
+      {
+        "name": "Custom House Mongla",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "graph",
+        "id": "1005"
+      },
+      {
+        "name": "Custom House ICD, Dhaka",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "graph",
+        "id": "1006"
+      }
+    ],
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      }
+    ]
+  },
+  "1001": {
+    "name": "Custom House Dhaka",
+    "level": "#6f0051",
+    "icon": "icons/nbr/Custom-House/LC-Station.png",
+    "id": "1001",
+    "parentId": "102",
+    "summary": {
+      "title": "Custom House Dhaka",
+      "description": "Custom House Dhaka ...",
+      "type": "details",
+      "list": [
+        {
+          "label": "High Level Diagram",
+          "rackCount": 2
+        },
+        {
+          "label": "Low Level Diagram",
+          "rackCount": 3
+        },
+        {
+          "label": "Network Diagram",
+          "rackCount": 4
+        },
+        {
+          "label": "...",
+          "rackCount": 4
+        }
+      ]
+    },
+    "children": [
+      {
+        "name": "High Level Diagram",
+        "level": "#6f0051",
+        "icon": "icons/Diagram.png",
+        "type": "diagram",
+        "id": "1001-1"
+      },
+      {
+        "name": "Low Level Diagram",
+        "level": "#6f0051",
+        "icon": "icons/Diagram.png",
+        "type": "diagram",
+        "id": "1001-2"
+      },
+      {
+        "name": "Network Diagram",
+        "level": "#6f0051",
+        "icon": "icons/Diagram.png",
+        "type": "diagram",
+        "id": "1001-3"
+      },
+      {
+        "name": "...",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "diagram",
+        "id": "1001-4"
+      }
+    ],
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      }
+    ]
+  },
+  "1001-1": {
+    "name": "Custom House Dhaka",
+    "level": "#6f0051",
+    "icon": "icons/Datacenter.png",
+    "id": "1001-1",
+    "parentId": "1001",
+    "summary": {
+      "title": "Custom House",
+      "description": "Custom House ...",
+      "type": "details",
+      "list": [
+        {
+          "label": "Modular Data Center",
+          "rackCount": 2
+        },
+        {
+          "label": "Customs Campus Area",
+          "rackCount": 3
+        },
+        {
+          "label": "Outside Campus Area",
+          "rackCount": 4
+        }
+      ]
+    },
+    "children": [
+      {
+        "name": "Modular Data Center",
+        "level": "#6f0051",
+        "icon": "icons/Area/MDC.png",
+        "type": "diagram",
+        "id": "10001"
+      },
+      {
+        "name": "Customs Campus Area",
+        "level": "#6f0051",
+        "icon": "icons/Area/MDC.png",
+        "type": "diagram",
+        "id": "10002"
+      },
+      {
+        "name": "Outside Campus Area",
+        "level": "#6f0051",
+        "icon": "icons/Area/MDC.png",
+        "type": "diagram",
+        "id": "10003"
+      }
+    ],
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      }
+    ]
+  },
+  "10001": {
+    "name": "Modular Data Center",
+    "type": "area",
+    "id": "10001",
+    "icon": "icons/Area/MDC.png",
+    "summary": {
+      "title": "Modular Data Center",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "MDC Rack-2",
+        "type": "rack",
+        "id": "200",
+        "icon": "icons/Rack.png",
+        "rackMake": "VARICOM",
+        "rackModel": "X7S-6242-RGB-B"
+      },
+      {
+        "name": "MDC Rack-3",
+        "type": "rack",
+        "id": "201",
+        "icon": "icons/Rack.png",
+        "rackMake": "VARICOM",
+        "rackModel": "X7S-6242-RGB-B"
+      }
+    ],
+    "parentId": "1001-1",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      }
+    ]
+  },
+  "200": {
+    "name": "MDC Rack-2",
+    "type": "rack",
+    "id": "200",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "MDC Rack-2",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VARICOM",
+    "rackModel": "X7S-6242-RGB-B",
+    "parentId": "10001",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10001",
+        "name": "Modular Data Center"
+      }
+    ]
+  },
+  "201": {
+    "name": "MDC Rack-3",
+    "type": "rack",
+    "id": "201",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "MDC Rack-3",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VARICOM",
+    "rackModel": "X7S-6242-RGB-B",
+    "parentId": "10001",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10001",
+        "name": "Modular Data Center"
+      }
+    ]
+  },
+  "10002": {
+    "name": "Customs Campus Area",
+    "type": "area",
+    "id": "10002",
+    "icon": "icons/Area/MDC.png",
+    "summary": {
+      "title": "Customs Campus Area",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Dhaka Customs Building",
+        "type": "building",
+        "id": "100001",
+        "icon": "icons/Building-Green.png"
+      }
+    ],
+    "parentId": "1001-1",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      }
+    ]
+  },
+  "100001": {
+    "name": "Dhaka Customs Building",
+    "type": "building",
+    "id": "100001",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Dhaka Customs Building",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Ground Floor",
+        "type": "floor",
+        "id": "1000001",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "1st Floor",
+        "type": "floor",
+        "id": "1000002",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "2nd Floor",
+        "type": "floor",
+        "id": "1000003",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "3nd Floor",
+        "type": "floor",
+        "id": "1000004",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10002",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "1000001": {
+    "name": "Ground Floor",
+    "type": "floor",
+    "id": "1000001",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Ground Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": 101,
+        "type": "room",
+        "id": "10000001",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "100001",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      }
+    ]
+  },
+  "10000001": {
+    "name": 101,
+    "type": "room",
+    "id": "10000001",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": 101,
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-01",
+        "type": "rack",
+        "id": "202",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000001",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      },
+      {
+        "id": "1000001",
+        "name": "Ground Floor"
+      }
+    ]
+  },
+  "202": {
+    "name": "Rack-01",
+    "type": "rack",
+    "id": "202",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-01",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000001",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      },
+      {
+        "id": "1000001",
+        "name": "Ground Floor"
+      },
+      {
+        "id": "10000001",
+        "name": 101
+      }
+    ]
+  },
+  "1000002": {
+    "name": "1st Floor",
+    "type": "floor",
+    "id": "1000002",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "1st Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": 207,
+        "type": "room",
+        "id": "10000002",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "100001",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      }
+    ]
+  },
+  "10000002": {
+    "name": 207,
+    "type": "room",
+    "id": "10000002",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": 207,
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-02",
+        "type": "rack",
+        "id": "203",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000002",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      },
+      {
+        "id": "1000002",
+        "name": "1st Floor"
+      }
+    ]
+  },
+  "203": {
+    "name": "Rack-02",
+    "type": "rack",
+    "id": "203",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-02",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000002",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      },
+      {
+        "id": "1000002",
+        "name": "1st Floor"
+      },
+      {
+        "id": "10000002",
+        "name": 207
+      }
+    ]
+  },
+  "1000003": {
+    "name": "2nd Floor",
+    "type": "floor",
+    "id": "1000003",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "2nd Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Hall Room",
+        "type": "room",
+        "id": "10000003",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "100001",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      }
+    ]
+  },
+  "10000003": {
+    "name": "Hall Room",
+    "type": "room",
+    "id": "10000003",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Hall Room",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-03",
+        "type": "rack",
+        "id": "204",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000003",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      },
+      {
+        "id": "1000003",
+        "name": "2nd Floor"
+      }
+    ]
+  },
+  "204": {
+    "name": "Rack-03",
+    "type": "rack",
+    "id": "204",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-03",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000003",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      },
+      {
+        "id": "1000003",
+        "name": "2nd Floor"
+      },
+      {
+        "id": "10000003",
+        "name": "Hall Room"
+      }
+    ]
+  },
+  "1000004": {
+    "name": "3nd Floor",
+    "type": "floor",
+    "id": "1000004",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "3nd Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": 414,
+        "type": "room",
+        "id": "10000004",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "100001",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      }
+    ]
+  },
+  "10000004": {
+    "name": 414,
+    "type": "room",
+    "id": "10000004",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": 414,
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-04",
+        "type": "rack",
+        "id": "205",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000004",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      },
+      {
+        "id": "1000004",
+        "name": "3nd Floor"
+      }
+    ]
+  },
+  "205": {
+    "name": "Rack-04",
+    "type": "rack",
+    "id": "205",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-04",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000004",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10002",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100001",
+        "name": "Dhaka Customs Building"
+      },
+      {
+        "id": "1000004",
+        "name": "3nd Floor"
+      },
+      {
+        "id": "10000004",
+        "name": 414
+      }
+    ]
+  },
+  "10003": {
+    "name": "Outside Campus Area",
+    "type": "area",
+    "id": "10003",
+    "icon": "icons/Area/MDC.png",
+    "summary": {
+      "title": "Outside Campus Area",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "AirFrieght",
+        "type": "building",
+        "id": "100002",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Curier Unit",
+        "type": "building",
+        "id": "100003",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Curier Entry Gate",
+        "type": "building",
+        "id": "100004",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Gate-08",
+        "type": "building",
+        "id": "100005",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Export Cargo Village",
+        "type": "building",
+        "id": "100006",
+        "icon": "icons/Building-Green.png"
+      }
+    ],
+    "parentId": "1001-1",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      }
+    ]
+  },
+  "100002": {
+    "name": "AirFrieght",
+    "type": "building",
+    "id": "100002",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "AirFrieght",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "1st Floor",
+        "type": "floor",
+        "id": "1000005",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10003",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      }
+    ]
+  },
+  "1000005": {
+    "name": "1st Floor",
+    "type": "floor",
+    "id": "1000005",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "1st Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Room-RO",
+        "type": "room",
+        "id": "10000005",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "100002",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100002",
+        "name": "AirFrieght"
+      }
+    ]
+  },
+  "10000005": {
+    "name": "Room-RO",
+    "type": "room",
+    "id": "10000005",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Room-RO",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-05",
+        "type": "rack",
+        "id": "206",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000005",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100002",
+        "name": "AirFrieght"
+      },
+      {
+        "id": "1000005",
+        "name": "1st Floor"
+      }
+    ]
+  },
+  "206": {
+    "name": "Rack-05",
+    "type": "rack",
+    "id": "206",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-05",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000005",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100002",
+        "name": "AirFrieght"
+      },
+      {
+        "id": "1000005",
+        "name": "1st Floor"
+      },
+      {
+        "id": "10000005",
+        "name": "Room-RO"
+      }
+    ]
+  },
+  "100003": {
+    "name": "Curier Unit",
+    "type": "building",
+    "id": "100003",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Curier Unit",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Ground Floor",
+        "type": "floor",
+        "id": "1000006",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10003",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      }
+    ]
+  },
+  "1000006": {
+    "name": "Ground Floor",
+    "type": "floor",
+    "id": "1000006",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Ground Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Room-DC",
+        "type": "room",
+        "id": "10000006",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "100003",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100003",
+        "name": "Curier Unit"
+      }
+    ]
+  },
+  "10000006": {
+    "name": "Room-DC",
+    "type": "room",
+    "id": "10000006",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Room-DC",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-06",
+        "type": "rack",
+        "id": "207",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000006",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100003",
+        "name": "Curier Unit"
+      },
+      {
+        "id": "1000006",
+        "name": "Ground Floor"
+      }
+    ]
+  },
+  "207": {
+    "name": "Rack-06",
+    "type": "rack",
+    "id": "207",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-06",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000006",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100003",
+        "name": "Curier Unit"
+      },
+      {
+        "id": "1000006",
+        "name": "Ground Floor"
+      },
+      {
+        "id": "10000006",
+        "name": "Room-DC"
+      }
+    ]
+  },
+  "100004": {
+    "name": "Curier Entry Gate",
+    "type": "building",
+    "id": "100004",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Curier Entry Gate",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Ground Floor",
+        "type": "floor",
+        "id": "1000007",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10003",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      }
+    ]
+  },
+  "1000007": {
+    "name": "Ground Floor",
+    "type": "floor",
+    "id": "1000007",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Ground Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-x1",
+        "type": "rack",
+        "id": "208",
+        "icon": "icons/Rack.png",
+        "rackMake": "NaN",
+        "rackModel": "NaN"
+      }
+    ],
+    "parentId": "100004",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100004",
+        "name": "Curier Entry Gate"
+      }
+    ]
+  },
+  "208": {
+    "name": "Rack-x1",
+    "type": "rack",
+    "id": "208",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-x1",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "NaN",
+    "rackModel": "NaN",
+    "parentId": "1000007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100004",
+        "name": "Curier Entry Gate"
+      },
+      {
+        "id": "1000007",
+        "name": "Ground Floor"
+      }
+    ]
+  },
+  "100005": {
+    "name": "Gate-08",
+    "type": "building",
+    "id": "100005",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Gate-08",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Ground Floor",
+        "type": "floor",
+        "id": "1000008",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10003",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      }
+    ]
+  },
+  "1000008": {
+    "name": "Ground Floor",
+    "type": "floor",
+    "id": "1000008",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Ground Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-x2",
+        "type": "rack",
+        "id": "209",
+        "icon": "icons/Rack.png",
+        "rackMake": "NaN",
+        "rackModel": "NaN"
+      }
+    ],
+    "parentId": "100005",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100005",
+        "name": "Gate-08"
+      }
+    ]
+  },
+  "209": {
+    "name": "Rack-x2",
+    "type": "rack",
+    "id": "209",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-x2",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "NaN",
+    "rackModel": "NaN",
+    "parentId": "1000008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100005",
+        "name": "Gate-08"
+      },
+      {
+        "id": "1000008",
+        "name": "Ground Floor"
+      }
+    ]
+  },
+  "100006": {
+    "name": "Export Cargo Village",
+    "type": "building",
+    "id": "100006",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Export Cargo Village",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Ground Floor",
+        "type": "floor",
+        "id": "1000009",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10003",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      }
+    ]
+  },
+  "1000009": {
+    "name": "Ground Floor",
+    "type": "floor",
+    "id": "1000009",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Ground Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": 207,
+        "type": "room",
+        "id": "10000007",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "100006",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100006",
+        "name": "Export Cargo Village"
+      }
+    ]
+  },
+  "10000007": {
+    "name": 207,
+    "type": "room",
+    "id": "10000007",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": 207,
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-07",
+        "type": "rack",
+        "id": "210",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000009",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100006",
+        "name": "Export Cargo Village"
+      },
+      {
+        "id": "1000009",
+        "name": "Ground Floor"
+      }
+    ]
+  },
+  "210": {
+    "name": "Rack-07",
+    "type": "rack",
+    "id": "210",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-07",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1001",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "1001-1",
+        "name": "Custom House Dhaka"
+      },
+      {
+        "id": "10003",
+        "name": "Outside Campus Area"
+      },
+      {
+        "id": "100006",
+        "name": "Export Cargo Village"
+      },
+      {
+        "id": "1000009",
+        "name": "Ground Floor"
+      },
+      {
+        "id": "10000007",
+        "name": 207
+      }
+    ]
+  },
+  "1002": {
+    "name": "CCH",
+    "type": "house",
+    "id": "1002",
+    "icon": "icons/nbr/Custom-House/LC-Station.png",
+    "summary": {
+      "title": "CCH",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Modular Data Center",
+        "type": "area",
+        "id": "10004",
+        "icon": "icons/Area/MDC.png"
+      },
+      {
+        "name": "Customs Campus Area",
+        "type": "area",
+        "id": "10005",
+        "icon": "icons/Area/MDC.png"
+      }
+    ],
+    "parentId": "102",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      }
+    ]
+  },
+  "10004": {
+    "name": "Modular Data Center",
+    "type": "area",
+    "id": "10004",
+    "icon": "icons/Area/MDC.png",
+    "summary": {
+      "title": "Modular Data Center",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "MDC Rack-2",
+        "type": "rack",
+        "id": "211",
+        "icon": "icons/Rack.png",
+        "rackMake": "VARICOM",
+        "rackModel": "X7S-6242-RGB-B"
+      },
+      {
+        "name": "MDC Rack-3",
+        "type": "rack",
+        "id": "212",
+        "icon": "icons/Rack.png",
+        "rackMake": "VARICOM",
+        "rackModel": "X7S-6242-RGB-B"
+      }
+    ],
+    "parentId": "1002",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      }
+    ]
+  },
+  "211": {
+    "name": "MDC Rack-2",
+    "type": "rack",
+    "id": "211",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "MDC Rack-2",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VARICOM",
+    "rackModel": "X7S-6242-RGB-B",
+    "parentId": "10004",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10004",
+        "name": "Modular Data Center"
+      }
+    ]
+  },
+  "212": {
+    "name": "MDC Rack-3",
+    "type": "rack",
+    "id": "212",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "MDC Rack-3",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VARICOM",
+    "rackModel": "X7S-6242-RGB-B",
+    "parentId": "10004",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10004",
+        "name": "Modular Data Center"
+      }
+    ]
+  },
+  "10005": {
+    "name": "Customs Campus Area",
+    "type": "area",
+    "id": "10005",
+    "icon": "icons/Area/MDC.png",
+    "summary": {
+      "title": "Customs Campus Area",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Chattogram Customs Building",
+        "type": "building",
+        "id": "100007",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Chemistry Building",
+        "type": "building",
+        "id": "100008",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "chattogram Customs Building",
+        "type": "building",
+        "id": "100009",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Officer's Quarter Building - 01",
+        "type": "building",
+        "id": "100010",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Officer's Quarter Building - 02",
+        "type": "building",
+        "id": "100011",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Officer's Quarter Building - 03",
+        "type": "building",
+        "id": "100012",
+        "icon": "icons/Building-Green.png"
+      }
+    ],
+    "parentId": "1002",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      }
+    ]
+  },
+  "100007": {
+    "name": "Chattogram Customs Building",
+    "type": "building",
+    "id": "100007",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Chattogram Customs Building",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "2nd Floor",
+        "type": "floor",
+        "id": "1000010",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10005",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "1000010": {
+    "name": "2nd Floor",
+    "type": "floor",
+    "id": "1000010",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "2nd Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Auditorium",
+        "type": "room",
+        "id": "10000008",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "PCU",
+        "type": "room",
+        "id": "10000009",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "Section 8A",
+        "type": "room",
+        "id": "10000010",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "100007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100007",
+        "name": "Chattogram Customs Building"
+      }
+    ]
+  },
+  "10000008": {
+    "name": "Auditorium",
+    "type": "room",
+    "id": "10000008",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Auditorium",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-08",
+        "type": "rack",
+        "id": "213",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000010",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100007",
+        "name": "Chattogram Customs Building"
+      },
+      {
+        "id": "1000010",
+        "name": "2nd Floor"
+      }
+    ]
+  },
+  "213": {
+    "name": "Rack-08",
+    "type": "rack",
+    "id": "213",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-08",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100007",
+        "name": "Chattogram Customs Building"
+      },
+      {
+        "id": "1000010",
+        "name": "2nd Floor"
+      },
+      {
+        "id": "10000008",
+        "name": "Auditorium"
+      }
+    ]
+  },
+  "10000009": {
+    "name": "PCU",
+    "type": "room",
+    "id": "10000009",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "PCU",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-09",
+        "type": "rack",
+        "id": "214",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000010",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100007",
+        "name": "Chattogram Customs Building"
+      },
+      {
+        "id": "1000010",
+        "name": "2nd Floor"
+      }
+    ]
+  },
+  "214": {
+    "name": "Rack-09",
+    "type": "rack",
+    "id": "214",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-09",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000009",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100007",
+        "name": "Chattogram Customs Building"
+      },
+      {
+        "id": "1000010",
+        "name": "2nd Floor"
+      },
+      {
+        "id": "10000009",
+        "name": "PCU"
+      }
+    ]
+  },
+  "10000010": {
+    "name": "Section 8A",
+    "type": "room",
+    "id": "10000010",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Section 8A",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-10",
+        "type": "rack",
+        "id": "215",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000010",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100007",
+        "name": "Chattogram Customs Building"
+      },
+      {
+        "id": "1000010",
+        "name": "2nd Floor"
+      }
+    ]
+  },
+  "215": {
+    "name": "Rack-10",
+    "type": "rack",
+    "id": "215",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-10",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000010",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100007",
+        "name": "Chattogram Customs Building"
+      },
+      {
+        "id": "1000010",
+        "name": "2nd Floor"
+      },
+      {
+        "id": "10000010",
+        "name": "Section 8A"
+      }
+    ]
+  },
+  "100008": {
+    "name": "Chemistry Building",
+    "type": "building",
+    "id": "100008",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Chemistry Building",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Ground Floor",
+        "type": "floor",
+        "id": "1000011",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10005",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "1000011": {
+    "name": "Ground Floor",
+    "type": "floor",
+    "id": "1000011",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Ground Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Export-01",
+        "type": "room",
+        "id": "10000011",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "100008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100008",
+        "name": "Chemistry Building"
+      }
+    ]
+  },
+  "10000011": {
+    "name": "Export-01",
+    "type": "room",
+    "id": "10000011",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Export-01",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-11",
+        "type": "rack",
+        "id": "216",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000011",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100008",
+        "name": "Chemistry Building"
+      },
+      {
+        "id": "1000011",
+        "name": "Ground Floor"
+      }
+    ]
+  },
+  "216": {
+    "name": "Rack-11",
+    "type": "rack",
+    "id": "216",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-11",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000011",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100008",
+        "name": "Chemistry Building"
+      },
+      {
+        "id": "1000011",
+        "name": "Ground Floor"
+      },
+      {
+        "id": "10000011",
+        "name": "Export-01"
+      }
+    ]
+  },
+  "100009": {
+    "name": "chattogram Customs Building",
+    "type": "building",
+    "id": "100009",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "chattogram Customs Building",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "1st Floor",
+        "type": "floor",
+        "id": "1000012",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "Ground Floor",
+        "type": "floor",
+        "id": "1000013",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10005",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "1000012": {
+    "name": "1st Floor",
+    "type": "floor",
+    "id": "1000012",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "1st Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Hall-Room",
+        "type": "room",
+        "id": "10000012",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "9A\\C",
+        "type": "room",
+        "id": "10000013",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "RED-BLOCK",
+        "type": "room",
+        "id": "10000014",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "100009",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      }
+    ]
+  },
+  "10000012": {
+    "name": "Hall-Room",
+    "type": "room",
+    "id": "10000012",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Hall-Room",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-05",
+        "type": "rack",
+        "id": "217",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      },
+      {
+        "name": "Rack-06",
+        "type": "rack",
+        "id": "218",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000012",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000012",
+        "name": "1st Floor"
+      }
+    ]
+  },
+  "217": {
+    "name": "Rack-05",
+    "type": "rack",
+    "id": "217",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-05",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000012",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000012",
+        "name": "1st Floor"
+      },
+      {
+        "id": "10000012",
+        "name": "Hall-Room"
+      }
+    ]
+  },
+  "218": {
+    "name": "Rack-06",
+    "type": "rack",
+    "id": "218",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-06",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000012",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000012",
+        "name": "1st Floor"
+      },
+      {
+        "id": "10000012",
+        "name": "Hall-Room"
+      }
+    ]
+  },
+  "10000013": {
+    "name": "9A\\C",
+    "type": "room",
+    "id": "10000013",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "9A\\C",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-07",
+        "type": "rack",
+        "id": "219",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000012",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000012",
+        "name": "1st Floor"
+      }
+    ]
+  },
+  "219": {
+    "name": "Rack-07",
+    "type": "rack",
+    "id": "219",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-07",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000013",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000012",
+        "name": "1st Floor"
+      },
+      {
+        "id": "10000013",
+        "name": "9A\\C"
+      }
+    ]
+  },
+  "10000014": {
+    "name": "RED-BLOCK",
+    "type": "room",
+    "id": "10000014",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "RED-BLOCK",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-04",
+        "type": "rack",
+        "id": "220",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000012",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000012",
+        "name": "1st Floor"
+      }
+    ]
+  },
+  "220": {
+    "name": "Rack-04",
+    "type": "rack",
+    "id": "220",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-04",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000014",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000012",
+        "name": "1st Floor"
+      },
+      {
+        "id": "10000014",
+        "name": "RED-BLOCK"
+      }
+    ]
+  },
+  "1000013": {
+    "name": "Ground Floor",
+    "type": "floor",
+    "id": "1000013",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Ground Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Budget Section",
+        "type": "room",
+        "id": "10000015",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "Subteam_14",
+        "type": "room",
+        "id": "10000016",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "Room-106",
+        "type": "room",
+        "id": "10000017",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "100009",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      }
+    ]
+  },
+  "10000015": {
+    "name": "Budget Section",
+    "type": "room",
+    "id": "10000015",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Budget Section",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-02",
+        "type": "rack",
+        "id": "221",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000013",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000013",
+        "name": "Ground Floor"
+      }
+    ]
+  },
+  "221": {
+    "name": "Rack-02",
+    "type": "rack",
+    "id": "221",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-02",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000015",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000013",
+        "name": "Ground Floor"
+      },
+      {
+        "id": "10000015",
+        "name": "Budget Section"
+      }
+    ]
+  },
+  "10000016": {
+    "name": "Subteam_14",
+    "type": "room",
+    "id": "10000016",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Subteam_14",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-03",
+        "type": "rack",
+        "id": "222",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000013",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000013",
+        "name": "Ground Floor"
+      }
+    ]
+  },
+  "222": {
+    "name": "Rack-03",
+    "type": "rack",
+    "id": "222",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-03",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000016",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000013",
+        "name": "Ground Floor"
+      },
+      {
+        "id": "10000016",
+        "name": "Subteam_14"
+      }
+    ]
+  },
+  "10000017": {
+    "name": "Room-106",
+    "type": "room",
+    "id": "10000017",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Room-106",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-1",
+        "type": "rack",
+        "id": "226",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "1000013",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000013",
+        "name": "Ground Floor"
+      }
+    ]
+  },
+  "226": {
+    "name": "Rack-1",
+    "type": "rack",
+    "id": "226",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-1",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "10000017",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100009",
+        "name": "chattogram Customs Building"
+      },
+      {
+        "id": "1000013",
+        "name": "Ground Floor"
+      },
+      {
+        "id": "10000017",
+        "name": "Room-106"
+      }
+    ]
+  },
+  "100010": {
+    "name": "Officer's Quarter Building - 01",
+    "type": "building",
+    "id": "100010",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Officer's Quarter Building - 01",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "1st Floor",
+        "type": "floor",
+        "id": "1000014",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10005",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "1000014": {
+    "name": "1st Floor",
+    "type": "floor",
+    "id": "1000014",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "1st Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-12",
+        "type": "rack",
+        "id": "223",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "100010",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100010",
+        "name": "Officer's Quarter Building - 01"
+      }
+    ]
+  },
+  "223": {
+    "name": "Rack-12",
+    "type": "rack",
+    "id": "223",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-12",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "1000014",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100010",
+        "name": "Officer's Quarter Building - 01"
+      },
+      {
+        "id": "1000014",
+        "name": "1st Floor"
+      }
+    ]
+  },
+  "100011": {
+    "name": "Officer's Quarter Building - 02",
+    "type": "building",
+    "id": "100011",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Officer's Quarter Building - 02",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "1st Floor",
+        "type": "floor",
+        "id": "1000015",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10005",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "1000015": {
+    "name": "1st Floor",
+    "type": "floor",
+    "id": "1000015",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "1st Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-13",
+        "type": "rack",
+        "id": "224",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "100011",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100011",
+        "name": "Officer's Quarter Building - 02"
+      }
+    ]
+  },
+  "224": {
+    "name": "Rack-13",
+    "type": "rack",
+    "id": "224",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-13",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "1000015",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100011",
+        "name": "Officer's Quarter Building - 02"
+      },
+      {
+        "id": "1000015",
+        "name": "1st Floor"
+      }
+    ]
+  },
+  "100012": {
+    "name": "Officer's Quarter Building - 03",
+    "type": "building",
+    "id": "100012",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Officer's Quarter Building - 03",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "1st Floor",
+        "type": "floor",
+        "id": "1000016",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10005",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "1000016": {
+    "name": "1st Floor",
+    "type": "floor",
+    "id": "1000016",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "1st Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-14",
+        "type": "rack",
+        "id": "225",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "100012",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100012",
+        "name": "Officer's Quarter Building - 03"
+      }
+    ]
+  },
+  "225": {
+    "name": "Rack-14",
+    "type": "rack",
+    "id": "225",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-14",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "1000016",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1002",
+        "name": "CCH"
+      },
+      {
+        "id": "10005",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100012",
+        "name": "Officer's Quarter Building - 03"
+      },
+      {
+        "id": "1000016",
+        "name": "1st Floor"
+      }
+    ]
+  },
+  "1003": {
+    "name": "BCH",
+    "type": "house",
+    "id": "1003",
+    "icon": "icons/nbr/Custom-House/LC-Station.png",
+    "summary": {
+      "title": "BCH",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "High Level Diagram",
+        "level": "#6f0051",
+        "icon": "icons/Diagram.png",
+        "type": "diagram",
+        "id": "1003-1"
+      },
+      {
+        "name": "Low Level Diagram",
+        "level": "#6f0051",
+        "icon": "icons/Diagram.png",
+        "type": "diagram",
+        "id": "1003-2"
+      },
+      {
+        "name": "Network Diagram",
+        "level": "#6f0051",
+        "icon": "icons/Diagram.png",
+        "type": "diagram",
+        "id": "1003-3"
+      },
+      {
+        "name": "...",
+        "level": "#6f0051",
+        "icon": "icons/nbr/Custom-House/LC-Station.png",
+        "type": "diagram",
+        "id": "1003-4"
+      }
+    ],
+    "parentId": "102",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      }
+    ]
+  },
+  "1003-1": {
+    "name": "Custom House Benapole",
+    "level": "#6f0051",
+    "icon": "icons/Datacenter.png",
+    "id": "1003-1",
+    "parentId": "1003",
+    "summary": {
+      "title": "Custom House",
+      "description": "Custom House ...",
+      "type": "details",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Data Center",
+        "type": "area",
+        "id": "10006",
+        "icon": "icons/Area/MDC.png"
+      },
+      {
+        "name": "Customs Campus Area",
+        "type": "area",
+        "id": "10007",
+        "icon": "icons/Area/MDC.png"
+      },
+      {
+        "name": "Outside Area",
+        "type": "area",
+        "id": "10008",
+        "icon": "icons/Area/MDC.png"
+      }
+    ],
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      }
+    ]
+  },
+  "10006": {
+    "name": "Data Center",
+    "type": "area",
+    "id": "10006",
+    "icon": "icons/Area/MDC.png",
+    "summary": {
+      "title": "Data Center",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "MDC Rack-3",
+        "type": "rack",
+        "id": "227",
+        "icon": "icons/Rack.png",
+        "rackMake": "NaN",
+        "rackModel": "NaN"
+      }
+    ],
+    "parentId": "1003-1",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      }
+    ]
+  },
+  "227": {
+    "name": "MDC Rack-3",
+    "type": "rack",
+    "id": "227",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "MDC Rack-3",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "NaN",
+    "rackModel": "NaN",
+    "parentId": "10006",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10006",
+        "name": "Data Center"
+      }
+    ]
+  },
+  "10007": {
+    "name": "Customs Campus Area",
+    "type": "area",
+    "id": "10007",
+    "icon": "icons/Area/MDC.png",
+    "summary": {
+      "title": "Customs Campus Area",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Benapole Customs New Building",
+        "type": "building",
+        "id": "100013",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Store",
+        "type": "building",
+        "id": "100014",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Guest House-02",
+        "type": "building",
+        "id": "100015",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Guest House-01",
+        "type": "building",
+        "id": "100016",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Old Building",
+        "type": "building",
+        "id": "100017",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Jinia House",
+        "type": "building",
+        "id": "100018",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "JC/ADC's Bungalow",
+        "type": "building",
+        "id": "100019",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Commissioner's Bungalow",
+        "type": "building",
+        "id": "100020",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Club House",
+        "type": "building",
+        "id": "100021",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Chemical Lab",
+        "type": "building",
+        "id": "100022",
+        "icon": "icons/Building-Green.png"
+      }
+    ],
+    "parentId": "1003-1",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      }
+    ]
+  },
+  "100013": {
+    "name": "Benapole Customs New Building",
+    "type": "building",
+    "id": "100013",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Benapole Customs New Building",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Ground Floor",
+        "type": "floor",
+        "id": "1000017",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "1st Floor",
+        "type": "floor",
+        "id": "1000018",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "2nd Floor",
+        "type": "floor",
+        "id": "1000019",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "3rd Floor",
+        "type": "floor",
+        "id": "1000020",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "4th Floor",
+        "type": "floor",
+        "id": "1000021",
+        "icon": "icons/Floor.png"
+      },
+      {
+        "name": "5th Floor",
+        "type": "floor",
+        "id": "1000022",
+        "icon": "icons/Floor.png"
+      }
+    ],
+    "parentId": "10007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "1000017": {
+    "name": "Ground Floor",
+    "type": "floor",
+    "id": "1000017",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "Ground Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-01",
+        "type": "rack",
+        "id": "228",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      },
+      {
+        "name": "Rack-02",
+        "type": "rack",
+        "id": "229",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "100013",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      }
+    ]
+  },
+  "228": {
+    "name": "Rack-01",
+    "type": "rack",
+    "id": "228",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-01",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "1000017",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      },
+      {
+        "id": "1000017",
+        "name": "Ground Floor"
+      }
+    ]
+  },
+  "229": {
+    "name": "Rack-02",
+    "type": "rack",
+    "id": "229",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-02",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "1000017",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      },
+      {
+        "id": "1000017",
+        "name": "Ground Floor"
+      }
+    ]
+  },
+  "1000018": {
+    "name": "1st Floor",
+    "type": "floor",
+    "id": "1000018",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "1st Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-03",
+        "type": "rack",
+        "id": "230",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "100013",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      }
+    ]
+  },
+  "230": {
+    "name": "Rack-03",
+    "type": "rack",
+    "id": "230",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-03",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "1000018",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      },
+      {
+        "id": "1000018",
+        "name": "1st Floor"
+      }
+    ]
+  },
+  "1000019": {
+    "name": "2nd Floor",
+    "type": "floor",
+    "id": "1000019",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "2nd Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-04",
+        "type": "rack",
+        "id": "231",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "100013",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      }
+    ]
+  },
+  "231": {
+    "name": "Rack-04",
+    "type": "rack",
+    "id": "231",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-04",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "1000019",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      },
+      {
+        "id": "1000019",
+        "name": "2nd Floor"
+      }
+    ]
+  },
+  "1000020": {
+    "name": "3rd Floor",
+    "type": "floor",
+    "id": "1000020",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "3rd Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-05",
+        "type": "rack",
+        "id": "232",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "100013",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      }
+    ]
+  },
+  "232": {
+    "name": "Rack-05",
+    "type": "rack",
+    "id": "232",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-05",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "1000020",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      },
+      {
+        "id": "1000020",
+        "name": "3rd Floor"
+      }
+    ]
+  },
+  "1000021": {
+    "name": "4th Floor",
+    "type": "floor",
+    "id": "1000021",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "4th Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-06",
+        "type": "rack",
+        "id": "233",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "100013",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      }
+    ]
+  },
+  "233": {
+    "name": "Rack-06",
+    "type": "rack",
+    "id": "233",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-06",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "1000021",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      },
+      {
+        "id": "1000021",
+        "name": "4th Floor"
+      }
+    ]
+  },
+  "1000022": {
+    "name": "5th Floor",
+    "type": "floor",
+    "id": "1000022",
+    "icon": "icons/Floor.png",
+    "summary": {
+      "title": "5th Floor",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-07",
+        "type": "rack",
+        "id": "234",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "100013",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      }
+    ]
+  },
+  "234": {
+    "name": "Rack-07",
+    "type": "rack",
+    "id": "234",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-07",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "1000022",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100013",
+        "name": "Benapole Customs New Building"
+      },
+      {
+        "id": "1000022",
+        "name": "5th Floor"
+      }
+    ]
+  },
+  "100014": {
+    "name": "Store",
+    "type": "building",
+    "id": "100014",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Store",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-25",
+        "type": "rack",
+        "id": "235",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "235": {
+    "name": "Rack-25",
+    "type": "rack",
+    "id": "235",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-25",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100014",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100014",
+        "name": "Store"
+      }
+    ]
+  },
+  "100015": {
+    "name": "Guest House-02",
+    "type": "building",
+    "id": "100015",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Guest House-02",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-24",
+        "type": "rack",
+        "id": "236",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "236": {
+    "name": "Rack-24",
+    "type": "rack",
+    "id": "236",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-24",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100015",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100015",
+        "name": "Guest House-02"
+      }
+    ]
+  },
+  "100016": {
+    "name": "Guest House-01",
+    "type": "building",
+    "id": "100016",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Guest House-01",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-23",
+        "type": "rack",
+        "id": "237",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "237": {
+    "name": "Rack-23",
+    "type": "rack",
+    "id": "237",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-23",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100016",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100016",
+        "name": "Guest House-01"
+      }
+    ]
+  },
+  "100017": {
+    "name": "Old Building",
+    "type": "building",
+    "id": "100017",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Old Building",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-08",
+        "type": "rack",
+        "id": "238",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "238": {
+    "name": "Rack-08",
+    "type": "rack",
+    "id": "238",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-08",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100017",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100017",
+        "name": "Old Building"
+      }
+    ]
+  },
+  "100018": {
+    "name": "Jinia House",
+    "type": "building",
+    "id": "100018",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Jinia House",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-13",
+        "type": "rack",
+        "id": "239",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "239": {
+    "name": "Rack-13",
+    "type": "rack",
+    "id": "239",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-13",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100018",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100018",
+        "name": "Jinia House"
+      }
+    ]
+  },
+  "100019": {
+    "name": "JC/ADC's Bungalow",
+    "type": "building",
+    "id": "100019",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "JC/ADC's Bungalow",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-12",
+        "type": "rack",
+        "id": "240",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "240": {
+    "name": "Rack-12",
+    "type": "rack",
+    "id": "240",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-12",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100019",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100019",
+        "name": "JC/ADC's Bungalow"
+      }
+    ]
+  },
+  "100020": {
+    "name": "Commissioner's Bungalow",
+    "type": "building",
+    "id": "100020",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Commissioner's Bungalow",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-11",
+        "type": "rack",
+        "id": "241",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "241": {
+    "name": "Rack-11",
+    "type": "rack",
+    "id": "241",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-11",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100020",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100020",
+        "name": "Commissioner's Bungalow"
+      }
+    ]
+  },
+  "100021": {
+    "name": "Club House",
+    "type": "building",
+    "id": "100021",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Club House",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-10",
+        "type": "rack",
+        "id": "242",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "242": {
+    "name": "Rack-10",
+    "type": "rack",
+    "id": "242",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-10",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100021",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100021",
+        "name": "Club House"
+      }
+    ]
+  },
+  "100022": {
+    "name": "Chemical Lab",
+    "type": "building",
+    "id": "100022",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Chemical Lab",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-09",
+        "type": "rack",
+        "id": "243",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10007",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      }
+    ]
+  },
+  "243": {
+    "name": "Rack-09",
+    "type": "rack",
+    "id": "243",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-09",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100022",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10007",
+        "name": "Customs Campus Area"
+      },
+      {
+        "id": "100022",
+        "name": "Chemical Lab"
+      }
+    ]
+  },
+  "10008": {
+    "name": "Outside Area",
+    "type": "area",
+    "id": "10008",
+    "icon": "icons/Area/MDC.png",
+    "summary": {
+      "title": "Outside Area",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Mobile Scanner",
+        "type": "building",
+        "id": "100023",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Bashkol",
+        "type": "building",
+        "id": "100024",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Rail Station",
+        "type": "building",
+        "id": "100025",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Sonali Bank",
+        "type": "building",
+        "id": "100026",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "CGC Building",
+        "type": "building",
+        "id": "100027",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "ICB Building",
+        "type": "building",
+        "id": "100028",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "ICB Tong",
+        "type": "building",
+        "id": "100029",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Export Tong",
+        "type": "building",
+        "id": "100030",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "Cargo Section",
+        "type": "building",
+        "id": "100031",
+        "icon": "icons/Building-Green.png"
+      },
+      {
+        "name": "DTM Building",
+        "type": "building",
+        "id": "100032",
+        "icon": "icons/Building-Green.png"
+      }
+    ],
+    "parentId": "1003-1",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      }
+    ]
+  },
+  "100023": {
+    "name": "Mobile Scanner",
+    "type": "building",
+    "id": "100023",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Mobile Scanner",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-26",
+        "type": "rack",
+        "id": "244",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      }
+    ]
+  },
+  "244": {
+    "name": "Rack-26",
+    "type": "rack",
+    "id": "244",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-26",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100023",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      },
+      {
+        "id": "100023",
+        "name": "Mobile Scanner"
+      }
+    ]
+  },
+  "100024": {
+    "name": "Bashkol",
+    "type": "building",
+    "id": "100024",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Bashkol",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-22",
+        "type": "rack",
+        "id": "245",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      }
+    ]
+  },
+  "245": {
+    "name": "Rack-22",
+    "type": "rack",
+    "id": "245",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-22",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100024",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      },
+      {
+        "id": "100024",
+        "name": "Bashkol"
+      }
+    ]
+  },
+  "100025": {
+    "name": "Rail Station",
+    "type": "building",
+    "id": "100025",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Rail Station",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-21",
+        "type": "rack",
+        "id": "246",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      }
+    ]
+  },
+  "246": {
+    "name": "Rack-21",
+    "type": "rack",
+    "id": "246",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-21",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100025",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      },
+      {
+        "id": "100025",
+        "name": "Rail Station"
+      }
+    ]
+  },
+  "100026": {
+    "name": "Sonali Bank",
+    "type": "building",
+    "id": "100026",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Sonali Bank",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-20",
+        "type": "rack",
+        "id": "247",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      }
+    ]
+  },
+  "247": {
+    "name": "Rack-20",
+    "type": "rack",
+    "id": "247",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-20",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100026",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      },
+      {
+        "id": "100026",
+        "name": "Sonali Bank"
+      }
+    ]
+  },
+  "100027": {
+    "name": "CGC Building",
+    "type": "building",
+    "id": "100027",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "CGC Building",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-19",
+        "type": "rack",
+        "id": "248",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      }
+    ]
+  },
+  "248": {
+    "name": "Rack-19",
+    "type": "rack",
+    "id": "248",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-19",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100027",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      },
+      {
+        "id": "100027",
+        "name": "CGC Building"
+      }
+    ]
+  },
+  "100028": {
+    "name": "ICB Building",
+    "type": "building",
+    "id": "100028",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "ICB Building",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-18",
+        "type": "rack",
+        "id": "249",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      }
+    ]
+  },
+  "249": {
+    "name": "Rack-18",
+    "type": "rack",
+    "id": "249",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-18",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100028",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      },
+      {
+        "id": "100028",
+        "name": "ICB Building"
+      }
+    ]
+  },
+  "100029": {
+    "name": "ICB Tong",
+    "type": "building",
+    "id": "100029",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "ICB Tong",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-17",
+        "type": "rack",
+        "id": "250",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      }
+    ]
+  },
+  "250": {
+    "name": "Rack-17",
+    "type": "rack",
+    "id": "250",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-17",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100029",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      },
+      {
+        "id": "100029",
+        "name": "ICB Tong"
+      }
+    ]
+  },
+  "100030": {
+    "name": "Export Tong",
+    "type": "building",
+    "id": "100030",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Export Tong",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-16",
+        "type": "rack",
+        "id": "251",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      }
+    ]
+  },
+  "251": {
+    "name": "Rack-16",
+    "type": "rack",
+    "id": "251",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-16",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100030",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      },
+      {
+        "id": "100030",
+        "name": "Export Tong"
+      }
+    ]
+  },
+  "100031": {
+    "name": "Cargo Section",
+    "type": "building",
+    "id": "100031",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "Cargo Section",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-15",
+        "type": "rack",
+        "id": "252",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      }
+    ]
+  },
+  "252": {
+    "name": "Rack-15",
+    "type": "rack",
+    "id": "252",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-15",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100031",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      },
+      {
+        "id": "100031",
+        "name": "Cargo Section"
+      }
+    ]
+  },
+  "100032": {
+    "name": "DTM Building",
+    "type": "building",
+    "id": "100032",
+    "icon": "icons/Building-Green.png",
+    "summary": {
+      "title": "DTM Building",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [
+      {
+        "name": "Rack-14",
+        "type": "rack",
+        "id": "253",
+        "icon": "icons/Rack.png",
+        "rackMake": "VIVANCO",
+        "rackModel": "VSA.6615.01.10e"
+      }
+    ],
+    "parentId": "10008",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      }
+    ]
+  },
+  "253": {
+    "name": "Rack-14",
+    "type": "rack",
+    "id": "253",
+    "icon": "icons/Rack.png",
+    "summary": {
+      "title": "Rack-14",
+      "type": "summary",
+      "description": "",
+      "list": []
+    },
+    "children": [],
+    "rackMake": "VIVANCO",
+    "rackModel": "VSA.6615.01.10e",
+    "parentId": "100032",
+    "breadCrumbs": [
+      {
+        "id": "11",
+        "name": "National Board of Revenue"
+      },
+      {
+        "id": "102",
+        "name": "Custom House"
+      },
+      {
+        "id": "1003",
+        "name": "BCH"
+      },
+      {
+        "id": "1003-1",
+        "name": "Custom House Benapole"
+      },
+      {
+        "id": "10008",
+        "name": "Outside Area"
+      },
+      {
+        "id": "100032",
+        "name": "DTM Building"
+      }
+    ]
+  }
+}
