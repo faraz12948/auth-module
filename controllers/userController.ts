@@ -1,11 +1,12 @@
 
 import bcrypt from "bcrypt";
 import generateToken, { verfiyTokenDate } from "../utils/authUtils";
-import { getUserByEmail, getUserByUsername, loginUser, registerUser } from "../services/user";
+import { getUserByEmail, getUserByUsername, loginUser, registerUser, updateUser } from "../services/user";
 import { RequestWithUser, ResponseWithUser } from '../interfaces/user';
 import { Request, Response } from "express";
-import { getTokenRepo, updateTokenRepo } from "../repositories/user";
-import { validationResult } from 'express-validator';
+import { getTokenRepo, getUserFromToken, updatePasswordRepo, updateResetToken, updateTokenRepo } from "../repositories/user";
+import { sendEmail } from "../utils/sendEmail";
+
 
 export const login = async (req: Request, res: ResponseWithUser) => {
 
@@ -30,7 +31,11 @@ export const login = async (req: Request, res: ResponseWithUser) => {
         }
         tkn = dbToken.rows[0].token;
 
-
+        res.cookie('jwt', tkn, {
+            httpOnly: true,
+            secure: false,
+            sameSite: 'strict',
+        });
         return res.json({
             message: 'Login Successful',
             success: true,
@@ -90,6 +95,52 @@ export const register = async (req: Request, res: ResponseWithUser) => {
         },
     })
 }
+
+
+export const updatePassword = async (req: any, res: any) => {
+    const { email } = req.body;
+
+    try {
+        // Check if the email exists in the database
+        const { rows } = await updateUser(email);
+        if (!rows.length) {
+            return res.status(404).json({ error: 'Email not found' });
+        }
+
+        // Generate a password reset token and store it in the database
+        const token = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+        await updateResetToken({ token, email });
+        // Send a password reset email to the user
+        await sendEmail(email, token);
+
+
+        res.json({ message: 'Password reset email sent' });
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+};
+// Route for handling password reset requests
+export const resetPassword = async (req: any, res: any) => {
+    const { token } = req.params;
+    const { password } = req.body;
+
+    try {
+        // Check if the token is valid
+        const { rows } = await getUserFromToken(token);
+        if (!rows.length) {
+            return res.status(400).json({ error: 'Invalid token' });
+        }
+
+        // Update the user's password and clear the reset token
+        await updatePasswordRepo({ token, password });
+
+        res.json({ message: 'Password reset successful' });
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+};
 
 
 

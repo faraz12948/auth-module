@@ -16,11 +16,10 @@ export const loginUser = async (username: string, password: string) => {
         password
     });
 };
-export const updateUser = async (username: string, email: string, password: string) => {
+export const updateUser = async (email: string) => {
     return await updateUserRepo({
-        username,
-        email,
-        password
+        email
+
     });
 };
 

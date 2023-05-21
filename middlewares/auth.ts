@@ -2,9 +2,9 @@
 const jwt = require('jsonwebtoken');
 const asyncHandler = require("express-async-handler");
 import { getTokenRepo, getUserFromEmail } from "../repositories/user";
-import { verfiyTokenDate, checkAuthHeader, verifyJwtuser, verifyToken } from "../utils/authUtils";
+import { verfiyTokenDate, checkAuthHeader, verifyToken } from "../utils/authUtils";
 const { ACCESS_TOKEN_SECRET } = process.env
-import { RequestWithUser, ResponseWithUser, DBToken, AuthError, RequestWithToken } from "../interfaces/user";
+import { ResponseWithUser, DBToken, RequestWithToken } from "../interfaces/user";
 import { NextFunction } from 'express';
 
 export const authorizedUser = asyncHandler(async (req: RequestWithToken, res: ResponseWithUser, next: NextFunction) => {

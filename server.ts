@@ -1,13 +1,18 @@
 const express = require('express')
 const app = express()
 
+const dotenv = require('dotenv');
+dotenv.config();
 const { SERVER_PORT, NODE_ENV } = process.env
 const API_PREFIX = '/api/v1'
 
 const cors = require('cors');
+const cookieParser = require('cookie-parser');
+
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
 const routers = require('./routers/APIV1')
 app.use(API_PREFIX, routers)
 

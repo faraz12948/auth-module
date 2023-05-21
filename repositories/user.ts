@@ -43,15 +43,11 @@ export const loginRepo = async (data: signInType) => {
 }
 export const updateUserRepo = async (data: commonAuthType) => {
     const {
-        username,
-        email,
-        password,
+
+        email
+
     } = data
-    const salt = await bcrypt.genSalt(10)
-    let updatedPassword = password ? await bcrypt.hash(password, salt) : ''
-    const query = `UPDATE users SET username = '${username}' ${updatedPassword ? `,password = '${updatedPassword}'` : ''}
-                    where email = '${email}' RETURNING name, email`;
-    return await pool.query(query)
+    return await pool.query('SELECT * FROM users WHERE email = $1', [email]);
 }
 
 export const deleteUser = async (id: any) => {
@@ -80,4 +76,25 @@ export const getUserFromEmail = async (data: commonAuthType) => {
 export const getUserFromUsername = async (data: commonAuthType) => {
     const query = `SELECT username,email FROM users WHERE username='${data}'`
     return await pool.query(query)
+}
+export const updateResetToken = async (data: any) => {
+    const {
+        token,
+        email
+    } = data;
+    return await pool.query('UPDATE users SET reset_token = $1 WHERE email = $2', [token, email]);
+
+
+}
+export const getUserFromToken = async (token: string) => {
+    return await pool.query('SELECT * FROM users WHERE reset_token = $1', [token]);
+}
+export const updatePasswordRepo = async (data: any) => {
+    const {
+        token,
+        password
+    } = data;
+    const salt = await bcrypt.genSalt(10)
+    let encryptedPassword = await bcrypt.hash(password, salt)
+    return await pool.query('UPDATE users SET password = $1, reset_token = NULL WHERE reset_token = $2', [encryptedPassword, token]);
 }
