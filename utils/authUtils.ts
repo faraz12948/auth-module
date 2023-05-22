@@ -27,13 +27,15 @@ export async function verifyToken(req: RequestWithToken, ACCESS_TOKEN_SECRET: st
     throw new Error('not authorized');
 }
 export function verfiyTokenDate(token: any) {
-    const decodedToken: any = jwt.verify(token, ACCESS_TOKEN_SECRET as string);
+    try {
+        const decodedToken: any = jwt.verify(token, ACCESS_TOKEN_SECRET as string);
+        if (decodedToken.exp > Date.now() / 1000) {
+            // check if the token has expired
+            return true;
+        }
+    } catch (e: any) {
 
-    if (decodedToken.exp < Date.now() / 1000) {
-        // check if the token has expired
         return false;
-    } else {
-        return true;
     }
 }
 
