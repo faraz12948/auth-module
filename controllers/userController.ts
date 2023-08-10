@@ -1,6 +1,6 @@
 
 import bcrypt from "bcrypt";
-import generateToken, { verfiyTokenDate } from "../utils/authUtils";
+import generateToken, { calculateTimeoutBasedOnRoleAndFunction, generateSessionId, verfiyTokenDate } from "../utils/authUtils";
 import { getUserByEmail, getUserByUsername, loginUser, registerUser, updateUser } from "../services/user";
 import { RequestWithUser, ResponseWithUser } from '../interfaces/user';
 import { Request, Response } from "express";
@@ -10,7 +10,7 @@ import { sendEmail } from "../utils/sendEmail";
 
 export const login = async (req: Request, res: ResponseWithUser) => {
 
-    const { username, password } = req.body
+    const { username, password, role, func } = req.body
     const users = await loginUser(username, password);
 
     if (users.rows.length === 0) {
@@ -30,12 +30,18 @@ export const login = async (req: Request, res: ResponseWithUser) => {
             await updateTokenRepo({ username, tkn });
         }
         tkn = dbToken.rows[0].token;
-
+        const sessionId = generateSessionId();
+        const sessionTimeout = calculateTimeoutBasedOnRoleAndFunction(role, func);
         res.cookie('jwt', tkn, {
             httpOnly: true,
             secure: false,
             sameSite: 'strict',
         });
+        res.cookie('session', JSON.stringify({ id: sessionId, timeout: sessionTimeout }), {
+            httpOnly: true,
+            secure: true,
+            maxAge: sessionTimeout,
+          });
         return res.json({
             message: 'Login Successful',
             success: true,
@@ -103,6 +109,7 @@ export const updatePassword = async (req: any, res: any) => {
     try {
         // Check if the email exists in the database
         const { rows } = await updateUser(email);
+        console.log("faraz")
         if (!rows.length) {
             return res.status(404).json({ error: 'Email not found' });
         }

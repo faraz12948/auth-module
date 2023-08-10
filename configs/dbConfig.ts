@@ -1,4 +1,6 @@
-const { Pool } = require('pg')
+const { Pool } = require('pg');
+const dotenv = require('dotenv');
+dotenv.config();
 const { POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD } = process.env
 
 const pool = new Pool({

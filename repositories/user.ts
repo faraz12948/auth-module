@@ -47,6 +47,7 @@ export const updateUserRepo = async (data: commonAuthType) => {
         email
 
     } = data
+    console.log(email)
     return await pool.query('SELECT * FROM users WHERE email = $1', [email]);
 }
 

@@ -2,6 +2,7 @@ import jwt from 'jsonwebtoken'
 import { JwtPayload } from 'jsonwebtoken';
 import { RequestWithUser, RequestWithToken, commonAuthType } from '../interfaces/user';
 import { getUserFromEmail } from '../repositories/user';
+import crypto from 'crypto';
 const { ACCESS_TOKEN_SECRET } = process.env;
 const generateToken = (username: any, email: any) => {
     let data = {
@@ -61,6 +62,38 @@ export async function verifyJwtuser(req: RequestWithToken, ACCESS_TOKEN_SECRET: 
     return false;
 
 }
+interface TimeoutConfig {
+    [role: string]: {
+        [key: string]:number;
+    };
+  }
+  
+export function calculateTimeoutBasedOnRoleAndFunction(role:string, func:string) {
+    // Define timeout values based on role and function
+    const timeouts: TimeoutConfig = {
+      admin: {
+        manage: 3600000, // 1 hour in milliseconds
+        view: 1800000,   // 30 minutes in milliseconds
+      },
+      user: {
+        manage: 1800000, // 30 minutes in milliseconds
+        view: 900000,    // 15 minutes in milliseconds
+      },
+    };
+  
+    // Get the corresponding timeout based on role and function
+    const timeoutForRole = timeouts[role] ? timeouts[role][func] : 900000; // Default to 15 minutes
+  
+    return timeoutForRole;
+  }
+
+export function generateSessionId() {
+  const sessionId = crypto.randomBytes(32).toString('hex'); // Generate a 64-character random string
+  console.log(sessionId);
+  return sessionId;
+}
+
+  
 
 export default generateToken;
 
